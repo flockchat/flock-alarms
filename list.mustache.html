@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Alarms</title>
+  </head>
+  <body>
+    {{#alarms.length}}
+    <ul>
+      {{#alarms}}
+      <li>{{text}}<br><i>{{timeString}}</i></li>
+      {{/alarms}}
+    </ul>
+    {{/alarms.length}}
+    {{^alarms.length}}
+    <p>No alarms set</p>
+    {{/alarms.length}}
+  </body>
+</html>

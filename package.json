@@ -1,0 +1,17 @@
+{
+  "name": "flock-alarms",
+  "version": "0.0.1",
+  "description": "Alarms for Flock",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chrono-node": "^1.2.5",
+    "express": "^4.14.1",
+    "flockos": "0.0.6",
+    "mustache": "^2.3.0"
+  }
+}
